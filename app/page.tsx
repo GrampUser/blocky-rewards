@@ -130,6 +130,46 @@ export default function Home() {
           </div>
         </DialogContent>
       </Dialog>
+
+
+      <footer className="bg-white py-12">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">About Us</h3>
+            <p className="text-gray-600 text-sm mb-4">
+              What is Blocky Rewards? Blocky Rewards is a website focused on
+              awarding free currency, here at Blocky Rewards we pay out the highest
+              rates compared to all of our competitors. Blocky Rewards is
+              completely free and safe to use.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-gray-800 mb-4">
+              HOW DOES IT WORK?
+            </h3>
+            <p className="text-gray-600 text-sm">
+              At Blocky Rewards, we do not ask for or require any personal
+              information. You complete offers on the website and earn currency in
+              which you can withdraw to your account. For every offer completed,
+              our partners pay us, and in turn, we invest a portion of that money
+              back into currency for payouts to give back to you, creating a fair
+              and win-win situation for both parties.
+            </p>
+          </div>
+        </div>
+        <div className="mt-8 pt-8 border-t border-gray-200 text-center">
+          <p className="text-gray-500">
+            © 2025 Blocky Rewards. All rights reserved.
+          </p>
+          <p className="text-gray-500">
+            tussssowork@gmail.com
+          </p>
+        </div>
+      </div>
+    </footer>
     </div>
+
+    
   );
 }
